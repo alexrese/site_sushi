@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site da história do sushi">
+    <meta name="author" content="Desenvolvido pela turmar de Design Gráfico na disciplina de Design de Interfaces em 2021/02 pelos alunos:
+    ">
     <title>Site de Sushi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
@@ -25,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#historia">História</a>
-                    <a class="nav-link" href="#">Tipos</a>
+                    <a class="nav-link" href="#tipos">Tipos</a>
                     <a class="nav-link" href="#">Processo</a>
                 </div>
             </div>
@@ -71,33 +76,91 @@
         <div class="card m-3">
             <div class="row g-0">
                 <div class="col-md-4">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Hiroshige_Bowl_of_Sushi.jpg/300px-Hiroshige_Bowl_of_Sushi.jpg" class="img-fluid rounded-start" alt="Desenho japonês de sushi">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Hiroshige_Bowl_of_Sushi.jpg/300px-Hiroshige_Bowl_of_Sushi.jpg"
+                        class="img-fluid rounded-start" alt="Desenho japonês de sushi">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">História</h5>
                         <p class="card-text">A forma tradicional do sushi é peixe fermentado e arroz, conservados com
-                            sal, em um processo originário do <a href="https://pt.wikipedia.org/wiki/Sudeste_Asi%C3%A1tico">Sudeste Asiático</a>, onde
+                            sal, em um processo originário do <a
+                                href="https://pt.wikipedia.org/wiki/Sudeste_Asi%C3%A1tico">Sudeste Asiático</a>, onde
                             ainda continua popular nos dias de hoje.</p>
                         <p class="card-text">
                             O termo sushi vem de uma forma gramatical arcaica, com significado de "Risoto Japonês", não
                             usada mais em outros contextos e significa, literalmente, "é
-                            azedo", <a href="https://pt.wikipedia.org/wiki/Sushi#cite_note-Culture-1">sushi</a> num reflexo das suas raízes
+                            azedo", <a href="https://pt.wikipedia.org/wiki/Sushi#cite_note-Culture-1">sushi</a> num
+                            reflexo das suas raízes
                             históricas de alimento fermentado.</p>
                         <p class="card-text">
                             A ciência por trás da fermentação do peixe embalado no arroz é que o vinagre produzido a
-                            partir da fermentação do arroz quebra a <a href="https://pt.wikipedia.org/wiki/Prote%C3%ADna">proteína</a> do peixe
-                            em <a href="https://pt.wikipedia.org/wiki/Amino%C3%A1cido">Aminoácido</a>. Isso resulta em um dos cinco paladares
+                            partir da fermentação do arroz quebra a <a
+                                href="https://pt.wikipedia.org/wiki/Prote%C3%ADna">proteína</a> do peixe
+                            em <a href="https://pt.wikipedia.org/wiki/Amino%C3%A1cido">Aminoácido</a>. Isso resulta em
+                            um dos cinco paladares
                             básicos, chamado umami em japonês. A forma mais antiga de sushi no Japão, narezushi, ainda
                             se assemelha muito com esse processo. No Japão, o narezushi evoluiu para oshizushi e, por
                             último, para edomae nigirizushi, que é o alimento conhecido mundialmente apenas como
                             "sushi".</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <p class="card-text"><small class="text-muted">Ultima atualização em outubro de 2021</small></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- tipos -->
+    <section id="tipos" class="p-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://pubimg.band.uol.com.br/files/8c7afc18588d6af2870c.png" class="card-img-top"
+                        alt="Exemplo de temaki">
+                    <div class="card-body">
+                        <h5 class="card-title cor-amarelo-laranja">Temaki (rolinhos de mão)</h5>
+                        <p class="card-text">
+                            Um pedaço grande em formato de cone, com o nori na parte externa e os ingredientes até à
+                            boca da extremidade larga. Um temaki típico tem por volta de dez centímetros de comprimento,
+                            e é comido com as mãos, já que é muito estranho pegá-lo com palitinhos.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cdn.awsli.com.br/600x450/1336/1336703/produto/53465136/6d78be06a5.jpg"
+                        class="card-img-top" alt="Exemplo de urumaki">
+                    <div class="card-body">
+                        <h5 class="card-title cor-amarelo-laranja">Uramaki (enrolado ao contrário)</h5>
+                        <p class="card-text">Um pedaço cilíndrico médio, com dois ou mais recheios. Uramaki
+                            diferencia-se dos outros maki porque o arroz está na parte externa e o nori na interna. O
+                            recheio fica no centro, rodeado por uma camada de nori, uma camada de arroz e uma cobertura
+                            de outro ingrediente, como ovas de peixe ou sementes de gergelim torradas.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cozinhatecnica.com/wp-content/uploads/2019/04/sakemaki-1-e1556626814366.jpg"
+                        class="card-img-top" alt="Exemplo de hosomaki">
+                    <div class="card-body">
+                        <h5 class="card-title cor-amarelo-laranja">Hosomaki (rolinhos finos)</h5>
+                        <p class="card-text">
+                            Um pedaço cilíndrico fino, com o nori na parte externa. O hosomaki típico tem por volta de
+                            dois centímetros de espessura e dois centímetros de largura. Eles são geralmente feitos com
+                            apenas um recheio, simplesmente porque não há espaço suficiente para mais de um.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
