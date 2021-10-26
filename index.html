@@ -7,7 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site da história do sushi">
     <meta name="author" content="Desenvolvido pela turmar de Design Gráfico na disciplina de Design de Interfaces em 2021/02 pelos alunos:
-    ">
+    Amanda Góss,
+    Benícia Coppi Testoni,
+    Bruno George Zipperer,
+    Felipi Piva de Freitas,
+    Gabriel Spricigo Pedrozo,
+    Giovana Fernandes Bogo,
+    Gustavo Silva de Souza,
+    Julia Geanesini Félix,
+    Laura Cadorin Marchi,
+    Laura Meyer Boso,
+    Laura Nunes Sangalli Goulart,
+    Lucas Felipe Franz Pasetti,
+    Maria Gabriela Lemos Pedrozo">
     <title>Site de Sushi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -31,7 +43,7 @@
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#historia">História</a>
                     <a class="nav-link" href="#tipos">Tipos</a>
-                    <a class="nav-link" href="#">Processo</a>
+                    <a class="nav-link" href="#contato">Contato</a>
                 </div>
             </div>
         </div>
@@ -123,7 +135,7 @@
                             e é comido com as mãos, já que é muito estranho pegá-lo com palitinhos.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Atualizado em 2021</small>
                     </div>
                 </div>
             </div>
@@ -139,7 +151,7 @@
                             de outro ingrediente, como ovas de peixe ou sementes de gergelim torradas.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Atualizado em 2021</small>
                     </div>
                 </div>
             </div>
@@ -155,12 +167,52 @@
                             apenas um recheio, simplesmente porque não há espaço suficiente para mais de um.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Atualizado em 2021</small>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="m-5" id="contato">
+        <div class="contianer">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 400px">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7103.820549758319!2d-48.61620223813662!3d-27.096124902487034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1635250929127!5m2!1sen!2sbr"
+                            ></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3 class="cor-amarelo-laranja">Entre em contato</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Digite aqui o seu e-mail.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Assunto</label>
+                            <input type="text" class="form-control" id="">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Quero receber e-mails.</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="p-3 text-center">
+        <p>© 2021 Sushi | História. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>
