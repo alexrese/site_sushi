@@ -14,21 +14,90 @@
 </head>
 
 <body>
+    <!-- aqui temos o menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Sushi</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">História</a>
-              <a class="nav-link" href="#">Tipos</a>
-              <a class="nav-link" href="#">Processo</a>
+            <a class="navbar-brand" href="#">Sushi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#historia">História</a>
+                    <a class="nav-link" href="#">Tipos</a>
+                    <a class="nav-link" href="#">Processo</a>
+                </div>
             </div>
-          </div>
         </div>
-      </nav>
+    </nav>
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1583623025817-d180a2221d0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+                    class="d-block w-100" alt="Imagem de bandega de sushi">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    class="d-block w-100" alt="Filadélfia com enfeite">
+            </div>
+            <div class="carousel-item">
+                <img src="https://exame.com/wp-content/uploads/2017/05/sushi.jpg?quality=70&strip=info"
+                    class="d-block w-100" alt="Três sashimi">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+    <!-- história -->
+    <div class="m-5" id="historia">
+        <div class="card m-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Hiroshige_Bowl_of_Sushi.jpg/300px-Hiroshige_Bowl_of_Sushi.jpg" class="img-fluid rounded-start" alt="Desenho japonês de sushi">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">História</h5>
+                        <p class="card-text">A forma tradicional do sushi é peixe fermentado e arroz, conservados com
+                            sal, em um processo originário do <a href="https://pt.wikipedia.org/wiki/Sudeste_Asi%C3%A1tico">Sudeste Asiático</a>, onde
+                            ainda continua popular nos dias de hoje.</p>
+                        <p class="card-text">
+                            O termo sushi vem de uma forma gramatical arcaica, com significado de "Risoto Japonês", não
+                            usada mais em outros contextos e significa, literalmente, "é
+                            azedo", <a href="https://pt.wikipedia.org/wiki/Sushi#cite_note-Culture-1">sushi</a> num reflexo das suas raízes
+                            históricas de alimento fermentado.</p>
+                        <p class="card-text">
+                            A ciência por trás da fermentação do peixe embalado no arroz é que o vinagre produzido a
+                            partir da fermentação do arroz quebra a <a href="https://pt.wikipedia.org/wiki/Prote%C3%ADna">proteína</a> do peixe
+                            em <a href="https://pt.wikipedia.org/wiki/Amino%C3%A1cido">Aminoácido</a>. Isso resulta em um dos cinco paladares
+                            básicos, chamado umami em japonês. A forma mais antiga de sushi no Japão, narezushi, ainda
+                            se assemelha muito com esse processo. No Japão, o narezushi evoluiu para oshizushi e, por
+                            último, para edomae nigirizushi, que é o alimento conhecido mundialmente apenas como
+                            "sushi".</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
